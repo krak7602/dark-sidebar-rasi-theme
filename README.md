@@ -1,1 +1,1 @@
-# dark-sidebar-rasi-theme
+# dark-sidebar-rofi-theme
