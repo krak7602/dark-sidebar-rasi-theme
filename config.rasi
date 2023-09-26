@@ -1,0 +1,7 @@
+configuration {
+    modi: "window,drun";
+    font: "JetBrains Mono 12";
+    sidebar-mode: true;
+}
+
+@theme "theme.rasi"

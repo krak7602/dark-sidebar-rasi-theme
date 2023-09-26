@@ -1,0 +1,97 @@
+* {
+    white: #dadada;
+    placeholderwhite: #424242;
+    lightblack: #252525;
+    darkblack: #202020;
+    darkwhite: #55555555;
+    nothingallsides: 0px 0px 0px 0px;
+}
+
+
+window {
+    height: 100%;
+    width: 25%;
+    location: west; 
+    anchor: west;
+    background-color: @darkblack;
+    border: @nothingallsides;
+    margin: 8px 8px 8px 8px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px;
+    border-color: #0a0a0aaa;
+}
+
+mainbox {
+    padding: @nothingallsides;
+    expand: true;
+    background-color: inherit;  
+}
+
+inputbar {
+    padding: 6px 6px 6px 6px;
+    background-color: inherit;
+    children: ["entry"];
+
+}
+
+entry {
+    background-color: #171717;
+    text-color: @white;
+    border-color: #77777799;
+    border: 1px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px 8px 8px 8px;
+    placeholder: "Type to filter";
+    placeholder-color: @placeholderwhite;
+}
+
+listview {
+    background-color: inherit;
+    margin: 6px 6px 6px 6px;
+}
+
+element {
+    background-color: @darkblack;
+    padding: 4px 4px 4px 4px;
+    margin: 2px 0px 2px 0px;
+    border-radius: 5px;
+    children: [element-text];
+}
+
+element selected {
+    background-color: #292929;
+    border: 1px;
+    border-color: @darkwhite;
+}
+
+element-text {
+    background-color: @darkblack;
+    border: 1px;
+    border-color: #00000000;
+    padding: 1px;
+    text-color: #707070;
+}
+
+element-text selected {
+    background-color: #292929;
+    text-color: #dddddd;
+}
+
+mode-switcher {
+    background-color: #151515;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    padding: @nothingallsides;
+}
+
+button {
+    background-color: inherit;
+    text-color: #999999;
+    border-radius: 5px;
+    padding: 1px 1px 1px 1px;
+}
+
+button selected {
+    background-color: #bbbbbb;
+    text-color: #0a0a0a;
+}
